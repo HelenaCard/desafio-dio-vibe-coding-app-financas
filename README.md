@@ -190,5 +190,7 @@ Mais do que criar um aplicativo, este projeto mostra na prática como utilizar o
 --------------------------------------------------
 
 🔗 Aplicação: https://spend-sprout-sidekick.lovable.app
+
 🔗 Repositório GitHub: (adicione aqui o link do seu repositório)
+
 🎓 Desafio: DIO - Vibe Coding com IA Generativa e Copilot.
