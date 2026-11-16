@@ -66,7 +66,7 @@ Viagens;
 Compra de equipamentos;
 Quitação de dívidas.
 
-##💡 Agente Financeiro Inteligente
+## 💡 Agente Financeiro Inteligente
  Sugestões personalizadas baseadas nos hábitos de consumo do usuário.
 
 Exemplo:
@@ -82,7 +82,7 @@ Evolução mensal;
 Progresso das metas;
 Economia gerada.
 
-##🧠 PRD (Product Requirements Document)
+## 🧠 PRD (Product Requirements Document)
 Contexto
 
 Criar um aplicativo de finanças pessoais baseado em conversas, utilizando Inteligência Artificial para tornar o controle financeiro acessível e intuitivo.
@@ -108,7 +108,7 @@ Respostas rápidas;
 Experiência mobile-first;
 Segurança dos dados do usuário.
 
-##📱 Fluxo Conceitual de Telas
+## 📱 Fluxo Conceitual de Telas
 1. Tela Inicial
 Resumo financeiro
 Saldo atual
@@ -126,7 +126,7 @@ Acompanhar progresso
 Insights personalizados
 Recomendações de economia
 
-## 🏗 MVP (Produto Mínimo Viável)
+##  🏗 MVP (Produto Mínimo Viável)
 Versão 1.0
 
 ✅ Registro de despesas por chat
@@ -169,7 +169,7 @@ Capturas de tela do Lovable;
 Protótipos gerados;
 Demonstrações do fluxo proposto.
 
-##💭 Reflexão Sobre o Processo
+## 💭 Reflexão Sobre o Processo
 O que funcionou bem?
 
 A criação de prompts estruturados permitiu obter respostas mais alinhadas ao objetivo do projeto, facilitando a construção do conceito do aplicativo.
