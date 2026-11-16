@@ -1,89 +1,194 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
 
-## ✨ O que é Vibe Coding
+## Spend Sprout Sidekick - Organizador de Finanças Pessoais com IA
+📖 Sobre o Projeto
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+O Spend Sprout Sidekick é um aplicativo conceitual de organização financeira desenvolvido utilizando os princípios de Vibe Coding, uma abordagem que utiliza Inteligência Artificial como parceira criativa para transformar ideias em soluções digitais através de conversas naturais.
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+O objetivo do projeto é simplificar o controle financeiro pessoal por meio de uma experiência conversacional, eliminando a complexidade de planilhas e formulários extensos.
 
-## 🎯 Desafio
+A aplicação permite que usuários registrem despesas em linguagem natural, recebam recomendações personalizadas de economia e acompanhem seus objetivos financeiros de forma intuitiva.
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+## Problema
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+Muitas pessoas têm dificuldade em manter o controle de suas finanças porque:
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+Aplicativos financeiros exigem muito preenchimento manual;
+O processo de categorização de gastos costuma ser trabalhoso;
+A criação e manutenção de orçamentos é vista como algo complexo;
+Falta personalização nas recomendações financeiras.
 
-## 🪄 Etapas do Desafio
+O Spend Sprout Sidekick busca resolver esses desafios utilizando IA para transformar conversas em ações financeiras inteligentes.
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+## 👥 Público-Alvo
+Pessoas iniciando sua jornada de educação financeira;
+Usuários que desejam organizar gastos sem usar planilhas;
+Jovens adultos que buscam economizar de forma prática;
+Qualquer pessoa que prefira interagir por chat ao invés de interfaces tradicionais.
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+##  🚀 Proposta de Solução
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+O aplicativo funciona como um assistente financeiro pessoal baseado em IA, permitindo que o usuário utilize linguagem natural para gerenciar suas finanças.
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+Exemplo
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+Usuário:
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+Gastei R$ 45 no mercado hoje.
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+IA:
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-```
+## Despesa registrada na categoria Alimentação. Você já utilizou 65% do orçamento mensal dessa categoria.
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+✨ Funcionalidades Principais
+💬 Registro de Gastos por Conversa
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+Permite adicionar despesas e receitas através de mensagens simples.
 
-### 2. Explorando o Lovable na Prática
+🤖 Classificação Automática
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+## A IA identifica automaticamente:
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+Alimentação
+Transporte
+Saúde
+Lazer
+Educação
+Moradia
+Outros
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+## 🎯 Metas Financeiras
 
-### 3. Entregando o Desafio na DIO
+Criação e acompanhamento de objetivos como:
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+Reserva de emergência;
+Viagens;
+Compra de equipamentos;
+Quitação de dívidas.
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+##💡 Agente Financeiro Inteligente
+ Sugestões personalizadas baseadas nos hábitos de consumo do usuário.
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+Exemplo:
 
-## 💬 Conclusão
+Você gastou 20% a mais em delivery nesta semana. Reduzindo esse valor pela metade, poderá economizar aproximadamente R$ 180 por mês.
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+## 📊 Relatórios Simplificados
+
+Visualização amigável de:
+
+Gastos por categoria;
+Evolução mensal;
+Progresso das metas;
+Economia gerada.
+
+##🧠 PRD (Product Requirements Document)
+Contexto
+
+Criar um aplicativo de finanças pessoais baseado em conversas, utilizando Inteligência Artificial para tornar o controle financeiro acessível e intuitivo.
+
+## Problema
+
+Usuários abandonam aplicações financeiras devido à necessidade constante de inserir dados manualmente e pela falta de recomendações realmente úteis.
+
+## Objetivo
+
+Transformar o acompanhamento financeiro em uma experiência simples, rápida e personalizada através de conversa natural.
+
+## Requisitos Funcionais
+Registrar despesas e receitas via chat.
+Classificar transações automaticamente.
+Criar metas financeiras.
+Gerar relatórios simplificados.
+Disponibilizar um assistente financeiro inteligente.
+Requisitos Não Funcionais
+Interface intuitiva;
+Linguagem acessível;
+Respostas rápidas;
+Experiência mobile-first;
+Segurança dos dados do usuário.
+
+##📱 Fluxo Conceitual de Telas
+1. Tela Inicial
+Resumo financeiro
+Saldo atual
+Metas em andamento
+2. Chat Financeiro
+Conversa com o assistente
+Registro de gastos e receitas
+3. Dashboard
+Gráficos de despesas
+Comparativos mensais
+4. Metas Financeiras
+Criar objetivo
+Acompanhar progresso
+5. Agente Financeiro
+Insights personalizados
+Recomendações de economia
+
+## 🏗 MVP (Produto Mínimo Viável)
+Versão 1.0
+
+✅ Registro de despesas por chat
+
+✅ Classificação automática
+
+✅ Metas financeiras simples
+
+✅ Dashboard resumido
+
+✅ Recomendações básicas de economia
+
+📊 Plano de Validação
+
+## O sucesso do MVP será medido através de:
+
+Métricas
+Quantidade de despesas registradas;
+Frequência de uso do chat;
+Número de metas criadas;
+Taxa de retenção dos usuários;
+Feedback sobre facilidade de uso.
+Hipótese Principal
+
+Usuários terão maior engajamento ao registrar seus gastos por conversa do que utilizando formulários tradicionais.
+
+## 🛠 Ferramentas Utilizadas
+Microsoft Copilot
+Lovable
+GitHub
+Inteligência Artificial Generativa
+Metodologia Vibe Coding
+
+## 📸 Evidências do Desenvolvimento
+
+Adicione nesta seção:
+
+Prints das interações com o Copilot;
+Capturas de tela do Lovable;
+Protótipos gerados;
+Demonstrações do fluxo proposto.
+
+##💭 Reflexão Sobre o Processo
+O que funcionou bem?
+
+A criação de prompts estruturados permitiu obter respostas mais alinhadas ao objetivo do projeto, facilitando a construção do conceito do aplicativo.
+
+## O que poderia melhorar?
+
+Algumas respostas exigiram refinamento dos prompts para gerar funcionalidades mais específicas e aderentes ao público-alvo.
+
+## Principais Aprendizados
+A qualidade do resultado depende diretamente da clareza da solicitação.
+A IA atua melhor quando recebe contexto detalhado.
+Vibe Coding não substitui o raciocínio humano, mas amplia sua capacidade criativa e produtiva.
+🌟 Conclusão
+
+O Spend Sprout Sidekick demonstra como a Inteligência Artificial pode transformar uma tarefa tradicionalmente complexa, como o controle financeiro pessoal, em uma experiência simples, conversacional e personalizada.
+
+Mais do que criar um aplicativo, este projeto mostra na prática como utilizar o Vibe Coding para transformar ideias em soluções digitais, explorando a IA como uma verdadeira parceira de criação.
+--------------------------------------------------
+
+🔗 Aplicação: https://spend-sprout-sidekick.lovable.app
+🔗 Repositório GitHub: (adicione aqui o link do seu repositório)
+🎓 Desafio: DIO - Vibe Coding com IA Generativa e Copilot.
